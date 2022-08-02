@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+   background-color: antiquewhite;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    background-color: black;
+    height: 75px;
+    align-items: center;
+   
+}
+nav ul li{
+    padding-right: 30px;
+}
+.brand img{
+  width: 65px;
+  padding: 30px;
+ 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rm;
+}
+.container{
+    height: 70vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    display: flex;
+    margin: 10px auto;
+    width: 60%;
+    background-color: black;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+    background-image: url(images/pexels-vishnu-r-nair-1105666.jpg);
+    overflow: auto;
+}
+
+/* .container img{
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+} */
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    margin-top: 10px;
+}
+.icon i{
+    cursor: pointer;
+}
+#bar{
+    width: 90vh;
+    cursor: pointer;
+    color: black;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 60vh;
+    border-width:1px;
+    margin-top: 10px;
+    padding-left: 30px;
+    justify-content: space-between;
+    border-style:solid;
+    border-color:white;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.songItem:hover{
+    /* box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 gray; */
+    background-color: rgba(117, 114, 114, 0.941); 
+}
+.songItem span{
+    padding-right: 30px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px     white; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px    black; 
+}
